@@ -24,7 +24,7 @@ def get_one_image(train):
 def evaluate_one_image(image_array):
     with tf.Graph().as_default():
         BATCH_SIZE = 1
-        N_CLASSES = len(classes)
+        N_CLASSES = 6
 
         image = tf.cast(image_array, tf.float32)
         image = tf.image.per_image_standardization(image)
@@ -61,7 +61,7 @@ def evaluate_one_image(image_array):
 # ------------------------------------------------------------------------
 
 if __name__ == '__main__':
-    img = Image.open('./marvel_heroes/ScarletWitch/pic_014.jpg')
+    img = Image.open(r'D:\Machine_Learning\flower_world-master0\marvel_heroes\ScarletWitch\pic_010.jpg')
     plt.imshow(img)
     plt.show()
     imag = img.resize([64, 64])
