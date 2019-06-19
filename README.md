@@ -1,8 +1,8 @@
 ﻿# 看看你是哪个超级英雄！
 [本项目参考模型](https://github.com/waitingfordark/flower_world)
-这是一个基于Tensorflow的CNN模型，现在可以识别六个超级英雄分别是：
-'BlackPanther', 'DoctorStrange','IronMan','ScarletWitch','SpiderMan','Thor'
-欢迎大家补充
+        这是一个基于Tensorflow的CNN模型，现在可以识别六个超级英雄分别是：
+        'BlackPanther', 'DoctorStrange','IronMan','ScarletWitch','SpiderMan','Thor'
+        欢迎大家补充
 
 ## Require
 1. Python3.5+
@@ -20,6 +20,6 @@
 - 运行test.py或者gui.py查看结果。
 
 ## Expand train data
--在marvel_heroes文件夹对应的文件夹下保存相应的英雄图片
--运行ImgPretreat.py将训练图片进行预处理，生成的图片位于marvel_preprogress中相应的文件夹
--修改train.py中相关参数进行重新训练
+- 在marvel_heroes文件夹对应的文件夹下保存相应的英雄图片
+- 运行ImgPretreat.py将训练图片进行预处理，生成的图片位于marvel_preprogress中相应的文件夹
+- 修改train.py中相关参数进行重新训练
