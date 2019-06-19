@@ -1,8 +1,8 @@
 ﻿# 看看你是哪个超级英雄！
 [本项目参考模型](https://github.com/waitingfordark/flower_world)
-        这是一个基于Tensorflow的CNN模型，现在可以识别六个超级英雄分别是：
-        'BlackPanther', 'DoctorStrange','IronMan','ScarletWitch','SpiderMan','Thor'
-        欢迎大家补充
+- 这是一个基于Tensorflow的CNN模型，现在可以识别六个超级英雄分别是：
+- 'BlackPanther', 'DoctorStrange','IronMan','ScarletWitch','SpiderMan','Thor'
+- 欢迎大家补充
 
 ## Require
 1. Python3.5+
