@@ -61,7 +61,7 @@ def evaluate_one_image(image_array):
 # ------------------------------------------------------------------------
 
 if __name__ == '__main__':
-    img = Image.open(r'D:\Machine_Learning\flower_world-master0\marvel_heroes\ScarletWitch\pic_010.jpg')
+    img = Image.open('./marvel_heroes\ScarletWitch\pic_010.jpg')
     plt.imshow(img)
     plt.show()
     imag = img.resize([64, 64])
