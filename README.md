@@ -7,7 +7,7 @@
 ## Require
 1. Python3.5+
 2. tensorflow
-3. wxPython
+3. wxPython（不使用UI界面暂时不需要这个库）
 
 ## Quick start
 - git clone这个项目
